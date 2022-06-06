@@ -39,3 +39,33 @@ function casualPunti(){
 function casualFalli() {
     return Math.floor(Math.random() * 15 + 25)
 }
+
+const bottone = document.getElementById("bottone")
+
+bottone.addEventListener("click", function(){
+for(i = 0; i < squadre.length; i++){
+    let squadra = squadre[i]
+
+    squadra.falliSubiti = casualFalli();
+    squadra.puntiFatti = casualPunti();
+}
+console.log(squadre)
+
+let squadre2 = []
+
+for (i = 0; i < squadre.length; i++) {
+let squadra = squadre[i]
+
+const {nome, falliSubiti} = squadra;
+
+squadre2.push(
+    {
+        nome,
+        falliSubiti
+    }
+)
+}
+console.log(squadre2)
+
+})
+
