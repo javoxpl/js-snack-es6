@@ -22,7 +22,7 @@ nuovoArray.push(element);
 
 });
 
-console.log(nuovoArray); */
+console.log(nuovoArray); */ 
 
 
 
