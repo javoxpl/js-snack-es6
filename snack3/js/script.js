@@ -12,6 +12,21 @@ const nuovoArray = [];
 const primoNumero = parseInt(prompt('inserisci un numero'))
 const secondoNumero = parseInt(prompt('inserisci un numero'))
 
+//esempio con forEach
+
+/* myArray.forEach((element, index) => {
+
+if (index >= primoNumero && index <= secondoNumero){
+nuovoArray.push(element);
+};
+
+});
+
+console.log(nuovoArray); */
+
+
+
+
 
 // esempio con .filter
 
